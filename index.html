@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz-Navidad Hotels</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" sizes="32x32" href="./images/fn.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="Facilities">
+    <div class="header">
+      <h3 class="logo-text">Feliz<span>-Navidad</span></h3>
+      <ul class="zeus">
+        <li class="home" id="sieto"><a href="./index.html" style="text-decoration: none;">Home</a></li>
+        <li class="dropdown" id="sieto"><a href="javascript:void(0)" class="dropbtn" onclick="myFunction()" style="text-decoration: none;">Rooms</a>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="#" id="deluxe-room">Deluxe room</a>
+            <a href="#" id="suite-room">Suite room</a>
+          </div>
+        </li>
+        <li class="facilities" id="sieto"><a href="#Facilities" style="text-decoration: none;">Facilites</a></li>
+        <li class="contact" id="sieto"><a href="#" style="text-decoration: none;">Contact us</a></li>
+      </ul>
+      <a href="#home" class="Book-Now btn" style="text-decoration: none;"><p>Book Now</p></a>
+        <label class="toggle-container">
+          <input type="checkbox" id="modeSwitch" onchange="toggleMode()" />
+          <div class="toggle-switch">
+            <span class="slider"></span>
+            <i class="fas fa-sun icon sun"></i>
+            <i class="fas fa-moon icon moon"></i>
+          </div>
+        </label>
+    </div><br>
+    <p class="award">Best Hotel In Africa 2018-2024</p>
+    <h1 class="heading">A landmark of <br>architectural innovation.</h1>
+    <p class="note">A hotel that's home to cutting-edge engineering -<br>
+      from the unique man-made beach and infinity pool<br>
+      terrace, to one of the tallest grand atrium at 180<br>
+      metres high</p><br>
+    <h2 class="fachead">Facilities:</h2>  
+    <div class="master-container">
+      <div class="container" id="semi">
+        <img class="img1" height="115px" width="110px" src="./images/semi.jpg" alt="sun flower">
+          <p class="title-text" id="open" style="color: #41597f;">Semi open & outdoor restaurant</p>
+          <div class="rating" id="rater1">
+            <p class="first" style="color: #41597f;">★</p>
+            <p class="star second">★</p>
+            <p class="star third">★</p>
+            <p class="star fourth">★</p>
+            <p class="star fifth">★</p>
+        </div></a>
+      </div>
+      <div class="container" id="swimming">
+        <img class="img1" height="115px" width="110px" src="./images/SWIMMING POOL.jpg" alt="sun flower">
+          <p class="title-text" id="pool">Swimming pool</p>
+          <div class="rating" id="rater2">
+            <p class="first">★</p>
+            <p class="star second">★</p>
+            <p class="star third">★</p>
+            <p class="star fourth">★</p>
+            <p class="star fifth">★</p>
+        </div>
+      </div>
+      <div class="container" id="conference">
+        <img class="img1" height="115px" width="110px" src="./images/conference.jpg" alt="sun flower">
+          <p class="title-text" id="friends">45 seating conference room</p>
+          <div class="rating" id="rater3">
+            <p class="first">★</p>
+            <p class="star second">★</p>
+            <p class="star third">★</p>
+            <p class="star fourth">★</p>
+            <p class="star fifth">★</p>
+        </div>
+      </div>
+      <div class="container" id="outside-catering">
+        <img class="img1" height="115px" width="110px" src="./images/outside-catering.jpg" alt="sun flower">
+          <p class="title-text">Outside catering service</p>
+          <div class="rating">
+            <p class="first">★</p>
+            <p class="star second">★</p>
+            <p class="star third">★</p>
+            <p class="star fourth">★</p>
+            <p class="star fifth">★</p>
+        </div>
+      </div>
+      <div class="container" id="air-conditioner">
+        <img class="img1" height="115px" width="110px" src="./images/air-conditioner.jpg" alt="sun flower">
+          <p class="title-text">Air-conditioning dining room</p>
+          <div class="rating">
+            <p class="first">★</p>
+            <p class="star second">★</p>
+            <p class="star third">★</p>
+            <p class="star fourth">★</p>
+            <p class="star fifth">★</p>
+        </div>
+      </div>
+      <div class="container" id="car-parking">
+        <img class="img1" height="115px" width="110px" src="./images/car-parking.jpg" alt="sun flower">
+          <p class="title-text">Car parking</p>
+          <div class="rating">
+            <p class="first">★</p>
+            <p class="star second">★</p>
+            <p class="star third">★</p>
+            <p class="star fourth">★</p>
+            <p class="star fifth">★</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="Button" id="Button" onmousedown="scrbutt()" onmouseup="stopScroll()">></div>
+  </div>
+  </div>
+  <div class="Button2" id="Button2" onmousedown="scrbutt2()" onmouseup="stopScroll()"><</div>
+    <div class="pusher">
+      <p class="watch">Watch about us <span class="play-button" id="playbutton">▶</span></p>
+    </div> 
+    <div class="video-container">
+      <img id="rect5" src="Rectangle5.png" alt="rectangle">
+      <video id="backgroundVideo" autoplay muted loop>
+        <source src="#" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="controls">
+      <button id="playPauseButton" style="padding-left: 0; font-size: 12px;">▐▐</button>
+      <div class="progress-bar" id="progressBar">
+        <div id="progress"></div>
+      </div>
+    </div>
+    <div class="meeting">
+      <h1>Feliz-Navidad Hotels</h1>
+      <p id="meeter">At the Heart of Communities For Over 80 Years</p>
+      <p id="contenter">Bringing people together is what we’ve done since opening our first Feliz-Navidad in 2018. Now we’re deeply rooted in over 400 communities across the globe. We are proud to act as a point of connection for millions of travelers, many just like you. Welcome.</p>
+      <img src="./images/meeting.jpg" alt="people in meeting">
+      <div class="box-over">
+        <h1>The Best Work Is Done Together</h1>
+        <p>We are your connection point. With a variety of venues and flexible meetings spaces in a multitude of destinations, we’ll help you make the most of your time together.</p>
+        <a href="#">LEARN MORE ></a>
+      </div>
+    </div>
+    <div class="member-container">
+      <div class="left-section">
+          <h1>Become a Feliz-Navidad Member</h1>
+          <p>Get exclusive rates, earn points towards free nights and more.</p>
+          <div class="buttons">
+              <button class="join-btn">Join for Free</button>
+              <button class="signin-btn">Sign In</button>
+          </div>
+      </div>
+      <div class="right-section">
+          <div class="feature" id="Earn">
+              <img src="./icons/bed.png" alt="Earn Free Nights">
+              <h3>EARN FREE NIGHTS</h3>
+          </div>
+          <div class="feature" id="Rates">
+              <img src="./icons/carder.png" alt="Member Rates">
+              <h3>MEMBER RATES</h3>
+          </div>
+          <div class="feature" id="Free">
+              <img style="height: 30px; margin-top: 10px;" src="./icons/wifi.png" alt="Free Wi-Fi">
+              <h3>FREE WI-FI</h3>
+          </div>
+          <div class="feature" id="Mobile">
+              <img src="./icons/login.png" alt="Mobile Check-In">
+              <h3>MOBILE CHECK-IN</h3>
+          </div>
+      </div>
+  </div>
+    <div class="carousel-container">
+      <h1>Your Winter Break is Here</h1>
+      <p class="parahead">Follow the savings to an amazing getaway. Book a hotel deal now. <a href="#">Learn more ➜ </a></p>
+
+      <div class="carousel-wrapper" style="margin-left: 0;">
+          <div class="carousel">
+              <div class="carousel-card">
+                  <img src="./images/black people.jpeg" alt="happy black people">
+                  <div class="overlay">
+                    <a href="#">
+                      <h3 style="color: white;">MULTIPLE LOCATIONS</h3>
+                      <p>Explore ICE! & save on the one-of-a-kind fun <span>></span></p>
+                    </a>
+                  </div>
+              </div>
+              <div class="carousel-card">
+                  <img src="./images/christmas girl.jpg" alt="a black girl">
+                  <div class="overlay">
+                    <a href="#">
+                      <h3 style="color: white;">MULTIPLE LOCATIONS</h3>
+                      <p>Pack In the Excitement With More Points <span>></span></p>
+                    </a>
+                  </div>
+              </div>
+              <div class="carousel-card">
+                  <img src="./images/swimmer.jpg" alt="a swimmer">
+                  <div class="overlay">
+                    <a href="#">
+                      <h3 style="color: white;">MULTIPLE LOCATIONS</h3>
+                      <p>Resort Retreats - Earn up to $100 Daily Credit <span>></span></p>
+                    </a>
+                  </div>
+              </div>
+              <div class="carousel-card">
+                  <img src="./images/hamburger.jpg" alt="hamburger">
+                  <div class="overlay">
+                    <a href="#">
+                      <h3 style="color: white;">MULTIPLE LOCATIONS</h3>
+                      <p style="max-width: 250px;">Extra Fun for Your Getaway! <span>></span></p>
+                    </a>
+                  </div>
+              </div>
+              <div class="carousel-card">
+                  <img src="./images/cocktail.jpg" alt="cocktail">
+                  <div class="overlay">
+                    <a href="#">
+                      <h3 style="color: white;">MULTIPLE LOCATIONS</h3>
+                      <p style="max-width: 250px;">Enjoy More Deals and Offers! <span>></span></p>
+                    </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <button class="nav-button left-button"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg></button>
+      <button class="nav-button right-button"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg></button>
+
+      <div class="navigation-dots">
+          <div class="dot active"></div>
+          <div class="dot" id="dote"></div>
+          <div class="dot" id="doter"></div>
+      </div>
+  </div>
+  <div class="carosel">
+    <div class="content">
+        <p id="headpara">THE SEASON TO TASTE</p>
+        <h1 id="hoed">Discover Our Bon voyage Restaurants</h1>
+        <p style="letter-spacing: 0.2px;">Dine worldwide at Feliz-Navidad award-winning restaurants.</p>
+        <a href="#" style="font-size: 13px; padding-left: 0;">Explore ➜ </a>
+    </div>
+    <div class="carosel-content">
+        <div class="carosel-images">
+            <div class="carosel-item">
+                <img src="./images/ogbono.jpg" alt="Italian Cuisine">
+                <div class="gradOverlay">
+                <div class="caption">
+                    <a href="#" style="text-decoration: none; color: white;">
+                        <p style="font-size: 12px; font-weight: 600; letter-spacing: 1px; padding: 0;">KITCHEN, SHERATON LAKE COMO</p>
+                    Creative Italian on the shores of Lake Como <span style="fill: white; margin-left: 35px;"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg></span>
+                    </a>
+                </div></div>
+            </div>
+            <div class="carosel-item">
+                <img src="./images/sucre.jpg" alt="Mediterranean Fare">
+                <div class="gradOverlay">
+                <div class="caption">
+                    <a href="#" style="text-decoration: none; color: white;">
+                        <p style="font-size: 12px; font-weight: 600; letter-spacing: 1px; padding: 0;">LILAC, THE TAMPA EDITION</p>
+                    Innovative Mediterranean fare with Florida flair <span style="fill: white; margin-left: 40px;"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg></span>
+                    </a>
+                </div></div>
+            </div>
+            <div class="carosel-item">
+                <img src="./images/medita.jpg" alt="Japanese Cuisine">
+                <div class="gradOverlay">
+                <div class="caption">
+                    <a href="#" style="text-decoration: none; color: white;">
+                        <p style="font-size: 12px; font-weight: 600; letter-spacing: 1px; padding: 0;">RUN, THE ST. REGIS HONG KONG
+                        </p>
+                    Classic Cantonese in a Chinese tea pavillion <span style="fill: white; margin-left: 40px;"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg></span>
+                    </a>
+            </div></div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="karousel-container">
+      <h1>Opening Doors Around the World</h1>
+      <p class="paraead">Warm welcomes await at our newest hotels. <a href="#" style="font-size: 13px;">Learn more ➜ </a></p>
+
+      <div class="karousel-wrapper" style="margin-left: 0;">
+          <div class="karousel">
+              <div class="karousel-card">
+                <img src="./images/castle.jpg" alt="a castle">
+                  <div class="overlay">
+                    <a href="#">
+                      <h3 style="color: white;">MULTIPLE LOCATIONS</h3>
+                      <p>Explore ICE! & save on the one-of-a-kind fun <span style="margin-left: 50px; color: white;">></span></p>
+                    </a>
+                  </div>
+              </div>
+              <div class="karousel-card">
+                <img src="./images/bar.jpg" alt="a bar">                  
+                  <div class="overlay">
+                    <a href="#">
+                      <h3 style="color: white;">MULTIPLE LOCATIONS</h3>
+                      <p>Pack In the Excitement With More Points <span style="margin-left: 50px; color: white;">></span></p>
+                    </a>
+                  </div>
+              </div>
+              <div class="karousel-card">
+                <img src="./images/sofa.jpg" alt="sofa">                  
+                  <div class="overlay">
+                    <a href="#">
+                      <h3 style="color: white;">MULTIPLE LOCATIONS</h3>
+                      <p>Resort Retreats - Earn up to $100 Daily Credit <span style="margin-left: 50px; color: white;">></span></p>
+                    </a>
+                  </div>
+              </div>
+              <div class="karousel-card">
+                <img src="./images/christmas girl.jpg" alt="a black girl">
+                  <div class="overlay">
+                    <a href="#">
+                      <h3 style="color: white;">MULTIPLE LOCATIONS</h3>
+                      <p style="max-width: 250px;">Extra Fun for Your Getaway! <span style="margin-left: 40px; color: white;">></span></p>
+                    </a>
+                  </div>
+              </div>
+              <div class="karousel-card">
+                <img src="./images/black people.jpeg" alt="happy black people">                  
+                  <div class="overlay">
+                    <a href="#">
+                      <h3 style="color: white;">MULTIPLE LOCATIONS</h3>
+                      <p style="max-width: 250px;">Enjoy More Deals and Offers! <span style="margin-left: 30px; color: white;">></span></p>
+                    </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <button class="nav2-button left2-button"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg></button>
+      <button class="nav2-button right2-button"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg></button>
+
+      <div class="navigation2-dots">
+          <div class="dot2 active"></div>
+          <div class="dot2" id="dotte"></div>
+          <div class="dot2" id="dotter"></div>
+      </div>
+  </div>
+</div>
+<div class="glide-indicator">
+  <div class="glide-button active"></div>
+  <div class="glide-button"></div>
+</div>
+<button class="carosel-btn left" onclick="nextSlider()"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg></button>
+<button class="carosel-btn right" onclick="nextSlider()"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg></button>
+<footer>
+  <div class="kontainer">
+    <div class="footer-section">
+      <h3>About Us</h3>
+      <p>Feliz-Navidad Hotels offers an unforgettable experience with luxurious rooms and world-class service.</p>
+    </div>
+    <div class="footer-section">
+      <h3>Contact</h3>
+      <ul>
+        <li><i class="fas fa-map-marker-alt"></i><span style="margin-left: 20px; color: white;">123 Santa Claus st., Gotham</span></li>
+        <li><i class="fas fa-phone"></i> <span style="margin-left: 10px; color: white;">+1 (234) 567-890</span></li>
+        <li><i class="fas fa-envelope"></i> <span style="margin-left: 10px; color: white;">info@feliznavidad.com</span></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <ul class="social-icons">
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Feliz-Navidad Hotels. All Rights Reserved.</p>
+  </div>
+</footer>
+  <script src="index.js"></script>
+</body>
+</html>
