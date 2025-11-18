@@ -1153,7 +1153,6 @@ display:block;
   footer .social-icons {
     display: flex;
     gap: 10px;
-    font-size: 40px;
   }
 
   footer .footer-bottom {
@@ -1594,6 +1593,7 @@ display:block;
   }
 
       }
+
 
 
 
