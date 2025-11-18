@@ -1153,8 +1153,10 @@ display:block;
   footer .social-icons {
     display: flex;
     gap: 10px;
-    font-size: 40px;
   }
+.social-icon-size {
+    font-size: 40px;
+}
 
   footer .footer-bottom {
     text-align: center;
@@ -1594,4 +1596,5 @@ display:block;
   }
 
       }
+
 
